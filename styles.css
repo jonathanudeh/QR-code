@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --bg-color: hsl(0, 0%, 100%);
+    --card-bg-color: hsl(212, 45%, 89%);
+    --text-bg-color: hsl(0, 0%, 90%);
+    --tag-color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: var(--card-bg-color);
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    grid-template-rows: 1fr 420px 1fr;
+    grid-template-areas: ".  .  ."
+                         ". box ."
+                         ".  .  .";
+}
+
+.qr-card {
+    background-color: var(--bg-color);
+    width: 250px;
+    height: 420px;
+    grid-area: box;
+    padding: 10px;
+    border-radius: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.qr-code {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--text-bg-color);
+}
+
+.bold-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.normal-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    padding: 5px;
+}
+
+.attribution a {
+    color: var(--tag-color)
+}
+
+@media only screen and (orientation: landscape) {
+    .background{
+        padding: 40px;
+    }
+}

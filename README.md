@@ -8,7 +8,7 @@ This project involves building a QR code component using HTML and CSS, following
 ![Project screenshot](images/screenshot.jpg "QR Code Component")
 
 ## Live Demo
-![Live site url](https://jonathanudeh.github.io/QR-code/)
+-Live Site url: [Live site url](https://jonathanudeh.github.io/QR-code/)
 
 ## Features
 - Functional QR code displays correctly

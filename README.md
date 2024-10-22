@@ -5,7 +5,7 @@ QR Code Component
 This project involves building a QR code component using HTML and CSS, following Frontend Mentors's design and requirements.
 
 ### screenshot
-![Project screenshot](images/screenshot.jpg=100x100 "QR Code Component")
+![Project screenshot](images/screenshot.jpg "QR Code Component")
 
 ## Live Demo
 

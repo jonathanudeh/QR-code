@@ -13,6 +13,17 @@
     padding: 0;
 }
 
+body { 
+    background-color: var(--card-bg-color);
+}
+header > h1 {
+    text-align: center;
+    background-color: var(--card-bg-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin: 10px
+}
+
 .background {
     background-color: var(--card-bg-color);
     width: 100%;
@@ -44,6 +55,7 @@
     background-color: var(--text-bg-color);
 }
 
+
 .bold-text {
     text-align: center;
     font-size: 20px;
@@ -58,10 +70,9 @@
 }
 
 .attribution {
-    grid-column: 2;
-    grid-row: 4;
+    background-color: var(--card-bg-color);
     text-align: center;
-    padding: 5px;
+    padding: 80px;
 }
 
 .attribution a {
